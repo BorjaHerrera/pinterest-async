@@ -1,0 +1,37 @@
+#nav {
+  margin-right: var(--pinterest-margin-m);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--pinterest-gap-s);
+}
+
+#nav ul {
+  width: 20%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: var(--pinterest-gap-m);
+}
+
+nav ul a {
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--pinterest-color-2);
+}
+
+nav ul a:active {
+  background-color: var(--pinterest-color-2);
+  padding: 15px 15px;
+  color: var(--pinterest-color-5);
+  border-radius: 25px;
+}
+
+#icons {
+  gap: var(--pinterest-gap-xs);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-right: 1%;
+}

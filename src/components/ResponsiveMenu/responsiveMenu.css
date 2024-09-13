@@ -1,0 +1,37 @@
+#menu-button {
+  display: none;
+  font-size: 24px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+@media (max-width: 750px) {
+  #menu-button {
+    display: block;
+    width: 5px;
+  }
+
+  #nav ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+  }
+
+  #nav ul.active {
+    display: flex;
+  }
+
+  #nav ul a {
+    padding: 10px;
+    padding-left: 25px;
+    display: block;
+    text-align: left;
+  }
+}

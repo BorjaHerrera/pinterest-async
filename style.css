@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+  /* BRANDING COLORS */
+  --pinterest-color-1: #e60022;
+  --pinterest-color-2: #111111;
+  --pinterest-color-3: #92c1ff;
+  --pinterest-color-4: #f1f1f1;
+  --pinterest-color-5: #ffffff;
+
+  /* SPACINGS */
+  --pinterest-margin-xxs: 5px;
+  --pinterest-margin-xs: 10px;
+  --pinterest-margin-s: 20px;
+  --pinterest-margin-m: 30px;
+  --pinterest-margin-l: 40px;
+  --pinterest-margin-xl: 50px;
+  --pinterest-margin-xxl: 100px;
+  --pinterest-margin-xxxl: 150px;
+  --pinterest-margin-xxxxl: 200px;
+
+  --pinterest-padding-xxs: 5px;
+  --pinterest-padding-xs: 10px;
+  --pinterest-padding-s: 20px;
+  --pinterest-padding-m: 30px;
+  --pinterest-padding-l: 40px;
+  --pinterest-padding-xl: 50px;
+  --pinterest-padding-xxl: 100px;
+  --pinterest-padding-xxxl: 150px;
+
+  --pinterest-gap-xxs: 5px;
+  --pinterest-gap-xs: 10px;
+  --pinterest-gap-s: 20px;
+  --pinterest-gap-m: 30px;
+  --pinterest-gap-l: 40px;
+  --pinterest-gap-xl: 50px;
+  --pinterest-gap-xxl: 100px;
+}
+
+* {
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  min-height: 100svh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#main {
+  width: 100%;
+  min-height: 100svh;
+}
+
+#footer {
+  width: 100%;
+  height: 10svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e50123;
+  margin-top: var(--pinterest-margin-xl);
+  padding: var(--pinterest-padding-l) var(--pinterest-padding-m);
+  font-size: 1rem;
+  font-weight: 300;
+  color: var(--pinterest-color-5);
+  text-align: center;
+}
+
+#footer p {
+  line-height: 1.5;
+}
